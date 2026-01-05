@@ -7,3 +7,7 @@ learning things are uploaded here to recall in future
 This Challenge helps me to stay consistency to recall on html, css. 
 It improve my designing skills
 
+
+#2) Crazy Animation rotation
+
+I have watched turtorial in Youtube. Here i learned more about the animations. It improves my observation and learned new Animation skills
