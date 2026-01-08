@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Customer Information Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            padding: 30px;
+        }
+        h2 {
+            color: #333;
+        }
+        form {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            width: 400px;
+            margin: auto;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        input[type="text"],
+        textarea,
+        select {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .gender, .languages {
+            margin-top: 5px;
+        }
+        .gender input,
+        .languages input {
+            margin-right: 5px;
+        }
+        button {
+            margin-top: 15px;
+            padding: 10px 15px;
+            background-color: #4285f4;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #357ae8;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Customer Information Form</h2>
+    <form action="#" method="post">
+        <!-- Customer Name -->
+        <label for="name">Customer Name:</label>
+        <input type="text" id="name" name="customer_name" required>
+
+        <!-- Address -->
+        <label for="address">Address:</label>
+        <textarea id="address" name="address" rows="4" required></textarea>
+
+        <!-- Gender -->
+        <label>Gender:</label>
+        <div class="gender">
+            <input type="radio" id="male" name="gender" value="Male">
+            <label for="male" style="display:inline;">Male</label>
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="female" style="display:inline;">Female</label>
+            <input type="radio" id="other" name="gender" value="Other">
+            <label for="other" style="display:inline;">Other</label>
+        </div>
+
+        <!-- Languages Known -->
+        <label>Languages Known:</label>
+        <div class="languages">
+            <input type="checkbox" id="english" name="languages[]" value="English">
+            <label for="english" style="display:inline;">English</label>
+            <input type="checkbox" id="tamil" name="languages[]" value="Tamil">
+            <label for="tamil" style="display:inline;">Tamil</label>
+            <input type="checkbox" id="hindi" name="languages[]" value="Hindi">
+            <label for="hindi" style="display:inline;">Hindi</label>
+            <input type="checkbox" id="otherLang" name="languages[]" value="Other">
+            <label for="otherLang" style="display:inline;">Other</label>
+        </div>
+
+        <!-- City -->
+        <label for="city">City:</label>
+        <select id="city" name="city" required>
+            <option value="">-- Select City --</option>
+            <option value="Chennai">Chennai</option>
+            <option value="Bangalore">Bangalore</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Delhi">Delhi</option>
+        </select>
+
+        <button type="submit">Submit</button>
+    </form>
+
+</body>
+</html>
