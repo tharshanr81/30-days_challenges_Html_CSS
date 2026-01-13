@@ -17,3 +17,7 @@ I have watched turtorial in Youtube. Here i learned more about the animations. I
 #3)  Customer Information form 
 
 It is a formal form with user details filling form.
+
+#4) Ecommerece webpage UI
+
+it helps me to design a basic ui of the ecommerece webpage  here i used the keyframes for the fade effects and smooth hover effects for the navbar 
