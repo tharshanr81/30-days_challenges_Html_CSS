@@ -1,0 +1,356 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+
+}
+
+body {
+    font-family: arial;
+    background-image: url("https://img.pikbest.com/wp/202344/assorted-an-assortment-of-various-fast-food-items-on-a-textured-gray-table_9906835.jpg!w700wp");
+    background-repeat: no-repeat;
+    background-size: 1536px 696px;
+
+}
+
+
+
+header {
+    background-image: url("header-background.png");
+
+    height: 70px;
+
+}
+
+nav {
+    position: absolute;
+    right: 20px;
+    top: 30px;
+
+}
+
+nav a {
+    padding-right: 10px;
+    font-size: large;
+    text-decoration: none;
+    color: ghostwhite;
+
+    padding-left: 10px;
+
+}
+
+a:hover {
+    color: black;
+}
+
+nav button {
+    border-radius: 5px 20px;
+    background-color: green;
+}
+
+nav button:hover {
+    background-color: greenyellow;
+}
+
+#search-con {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+#search-box {
+    width: 700px;
+    padding: 10px;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+
+#intro-words {
+    margin-top: 100px;
+    margin-left: 700px;
+    color: rgb(0, 255, 13);
+    font-size: x-large;
+    padding-bottom: 800px;
+}
+
+
+.blinking-text {
+    animation: blinker 2s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0.4;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.items {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+h2 {
+    position: absolute;
+    top: 730px;
+    left: 680px;
+    color: green;
+}
+
+.items-box img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+
+
+}
+
+.items-box1 img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+
+
+}
+
+.items-box2 img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+
+
+}
+
+.items-box3 img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+
+
+}
+
+.items-box4 img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+
+
+}
+
+.items-box5 img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+
+
+}
+
+.items-box6 img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+
+
+}
+
+.items-box7 img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+
+
+}
+
+#time1 {
+    position: absolute;
+    top: 330px;
+    left: 260px;
+    color: green;
+}
+
+#offer1 {
+    position: absolute;
+    top: 282px;
+    background-color: rgb(42, 97, 165);
+    color: ghostwhite;
+    padding: 5px;
+    padding-right: 10px;
+    border-radius: 0px 10px 0px 10px;
+}
+
+.items-box {
+
+    position: absolute;
+    top: 800px;
+    left: 60px;
+    width: 325px;
+    padding: 10px;
+    height: 400px;
+    margin-bottom: 10px;
+    background-color: rgb(255, 255, 255);
+    transition: box-shadow 0.3s ease-in-out;
+    border-radius: 10px;
+
+}
+
+.items-box1 {
+
+    position: absolute;
+    top: 800px;
+    left: 420px;
+    width: 325px;
+    padding: 10px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.items-box2 {
+
+    position: absolute;
+    top: 800px;
+    left: 780px;
+    width: 325px;
+    padding: 10px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.items-box3 {
+    position: absolute;
+    top: 800px;
+    left: 1140px;
+    width: 325px;
+    height: 400px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.items-box4 {
+    position: absolute;
+    top: 1280px;
+    left: 60px;
+    width: 325px;
+    height: 400px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.items-box5 {
+    position: absolute;
+    top: 1280px;
+    left: 420px;
+    width: 325px;
+    height: 400px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.items-box6 {
+    position: absolute;
+    top: 1280px;
+    left: 780px;
+    width: 325px;
+    height: 400px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.items-box7 {
+    position: absolute;
+    top: 1280px;
+    left: 1140px;
+    width: 325px;
+    height: 400px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.items-box:hover {
+    box-shadow: 0px 0px 5px grey;
+
+}
+
+
+.items-box1:hover {
+    box-shadow: 0px 0px 10px grey;
+}
+
+.items-box2:hover {
+    box-shadow: 0px 0px 10px grey;
+}
+
+.items-box3:hover {
+    box-shadow: 0px 0px 10px grey;
+}
+
+.items-box4:hover {
+    box-shadow: 0px 0px 5px grey;
+}
+
+.items-box5:hover {
+    box-shadow: 0px 0px 10px grey;
+}
+
+.items-box6:hover {
+    box-shadow: 0px 0px 10px grey;
+}
+
+.items-box7:hover {
+    box-shadow: 0px 0px 10px grey;
+}
+
+#name-shop1 {
+    position: absolute;
+    top: 330px;
+    font-family: arial;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+#list1 {
+    position: absolute;
+    top: 360px;
+    /* padding-left: 10px; */
+    color: black;
+}
+
+#price1 {
+    position: absolute;
+    top: 360px;
+    left: 220px;
+    color: black;
+}
+
+#bottom1 {
+    height: 100vh;
+}
+
+#load {
+    position: absolute;
+    top: 1720px;
+    background-color: rgb(0, 255, 51);
+    padding: 8px;
+    color: ghostwhite;
+    border-radius: 8px;
+    font-size: large;
+}
