@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: #1c1c25;
+    padding: 20px;
+}
+
+/* Make section fill the viewport */
+section {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* main container for card */
+.card1 {
+    position: relative;
+}
+
+/* gradient decorations */
+section::before,
+.card1::before {
+    content: '';
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 50% 20px;
+    opacity: 0.8;
+    z-index: 0;
+    /* behind card */
+}
+
+section::before {
+    top: 6%;
+    left: 75%;
+    background: linear-gradient(#AAFFA9, #11FFBD);
+}
+
+.card1::before {
+    bottom: -19%;
+    left: -10%;
+    background: linear-gradient(#0098f0, #0457d3);
+}
+
+/* profile card itself */
+.card {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+    padding: 10px;
+    width: 900px;
+    height: 480px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+    background-color: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* left container */
+.left-container {
+    flex: 1;
+    max-width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    padding: 10px;
+    margin: 30px;
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.right-container {
+    flex: 1;
+    max-width: 70%;
+    height: 430px;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 30px;
+    color: #fff;
+}
+
+/* profile image */
+img {
+    border: double 5px transparent;
+    border-radius: 50%;
+    background-image: linear-gradient(white, white),
+        linear-gradient(to right, #ee00ff, #fbff00);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    width: 200px;
+    height: 200px;
+    max-width: 200px;
+    margin-top: 40px;
+}
+    
+h2 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.gradienttext {
+    background-image: linear-gradient(to right, #00c6ff 0%, #0072ff 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: aliceblue;
+}
+
+/* table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+td {
+    padding: 8px 12px;
+    color: #fff;
+}
+
+td:first-child {
+    font-weight: bold;
+}
+
+/* social icons */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icons a {
+    background-image: linear-gradient(to right, #00c6ff 0%, #0072ff 100%);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin-right: 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.social-icons i {
+    font-size: 20px;
+
+    color: rgba(255, 255, 255, 0.7);
+    transition: all 0.3s ease;
+}
+
+.social-icons i:hover {
+    color: rgba(255, 255, 255, 1);
+}
+
+/* credits */
+.credit a {
+    text-decoration: none;
+    color: rgb(0, 174, 255);
+    font-weight: 800;
+}
+
+.credit {
+    color: #fff;
+    text-align: center;
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* responsive adjustments */
+@media only screen and (max-width: 860px) {
+    .card {
+        flex-direction: column;
+        margin: 10px;
+        height: auto;
+        width: 100%;
+    }
+
+    .left-container {
+        max-width: 100%;
+        border: none;
+        margin: 10px 0;
+    }
+
+    section::before {
+        top: 4%;
+        left: 51%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .card {
+        flex-direction: column;
+        margin: 10px;
+    }
+
+    .left-container {
+        max-width: 100%;
+    }
+
+    .card1::before {
+        bottom: -14%;
+        left: 1%;
+    }
+}
