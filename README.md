@@ -33,4 +33,11 @@ This is a food ordering web page ui here i used keyframe for blinking text
  This is my profile card with glassmorphism styled.It is  a responsive design.
 
 
+#7) Landing Page
+
+This is a Vacation travel experience landing page.
+
+
+
+
  
