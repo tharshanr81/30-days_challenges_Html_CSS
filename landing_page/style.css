@@ -1,0 +1,124 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+header {
+    background: linear-gradient(yellow, orange);
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    opacity: 0.95;
+    z-index: 1000;
+
+
+}
+
+h1 {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: end;
+
+}
+
+#home {
+    padding-left: 150px;
+}
+
+nav a {
+    text-decoration: none;
+    padding-right: 40px;
+    font-size: large;
+    transition: 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: red;
+    transform: scale(1.2);
+
+}
+
+
+
+
+.searchbox {
+    position: relative;
+}
+
+.searchbox #sear {
+    border-radius: 15px;
+    padding: 10px 10px 10px 35px;
+    font-size: medium;
+    border: 1px solid gray;
+    width: 700px;
+}
+
+.searchbox #icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+
+#icon {
+    width: 20px;
+    height: 20px;
+}
+
+#logo {
+    font-family: Lucida Calligraphy;
+}
+
+#logo2 {
+    font-family: cursive;
+}
+
+.container img {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.trans {
+    position: absolute;
+    top: 200px;
+    right: 150px;
+    font-size: large;
+    color: ghostwhite;
+    font-family: sans-serif;
+    justify-items: center;
+    align-content: center;
+}
+
+.trans h2 {
+    font-size: xxx-large;
+    animation: text 2s;
+
+    transform: translateX(-100px);
+}
+
+
+
+@keyframes text {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100px);
+    }
+
+}
+
+h4 {
+    font-family: cursive;
+}
