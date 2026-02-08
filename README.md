@@ -37,6 +37,14 @@ This is a food ordering web page ui here i used keyframe for blinking text
 
 This is a Vacation travel experience landing page.
 
+#8) Login page design
+
+This is a simple login and sign in pages for the user to log in or creating a new account option the pages.
+asking the user for the email and new password and confirm the password in the signin page
+and the user to fill the email and password to enter the web page 
+
+
+
 
 
 
