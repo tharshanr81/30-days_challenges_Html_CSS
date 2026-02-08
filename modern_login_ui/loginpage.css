@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main1 {
+    background: linear-gradient(rgb(39, 0, 89), rgb(76, 0, 255));
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+    height: 500px;
+    width: 400px;
+    border-radius: 20px;
+    color: red;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.main {
+    background: linear-gradient(rgb(39, 0, 89), rgb(76, 0, 255));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    color: ghostwhite;
+    margin-top: 60px;
+}
+
+#email {
+    height: 40px;
+    width: 270px;
+    padding-left: 15px;
+    position: absolute;
+    top: 140px;
+    border-radius: 10px;
+}
+
+
+#Pass {
+    height: 40px;
+    width: 270px;
+    position: absolute;
+    top: 220px;
+    padding-left: 15px;
+    border-radius: 10px;
+
+}
+
+.design1 {
+    height: 20px;
+    background-color: aliceblue;
+    width: 400px;
+    position: absolute;
+    top: 470px;
+    border-radius: 0px 0px 10px 10px;
+    padding-top: 10px;
+
+}
+
+.design2 {
+    height: 20px;
+    background-color: aliceblue;
+    width: 400px;
+    position: absolute;
+    top: 0px;
+    border-radius: 10px 10px 0px 0px;
+    padding-top: 10px;
+}
+
+.btn {
+    color: ghostwhite;
+    height: 20px;
+    position: absolute;
+    top: 300px;
+    left: 82px;
+    background: linear-gradient(to right, rgb(39, 0, 89), rgb(76, 0, 255));
+    padding: 20px;
+    width: 240px;
+    border-radius: 10px 10px;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    align-items: center;
+}
+
+.btn:hover {
+    color:black;
+     background: linear-gradient(ghostwhite,grey);
+
+}
+
+.create {
+    position: absolute;
+    top: 400px;
+    color: ghostwhite;
+
+}
+
+.btn1 {
+    color: ghostwhite;
+    height: 20px;
+    position: absolute;
+    top: 380px;
+    left: 82px;
+    background: linear-gradient(to right, rgb(39, 0, 89), rgb(76, 0, 255));
+    padding: 20px;
+    width: 240px;
+    border-radius: 10px 10px;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    align-items: center;
+}
+.btn1:hover {
+    color:black;
+    background: linear-gradient(ghostwhite,grey);
+
+}
+#or{
+    position: absolute;
+    top: 350px;
+    color: ghostwhite;
+}
